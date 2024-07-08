@@ -1,0 +1,86 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .montserrat-alternates-regular {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .montserrat-alternates-extrabold-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+
+  .iphone-img{
+    height: 37.25rem;
+    width: 20.75rem;
+    border-radius: 11%;
+  }
+
+  .testimonial-h1 {
+    text-align: center; /* Center text for smaller screens */
+  }
+
+  .responsive-margin {
+    margin-left: auto; /* Align center by default */
+    margin-right: auto; /* Align center by default */
+  }
+
+  .testimonial-img{
+    max-height: 400px; 
+    max-width: 800px;
+    margin: auto;
+
+  }
+
+  .carousel-caption-below {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  @media (min-width: 992px) {
+    .responsive-margin {
+      text-align: left;
+      margin-left: 4.25rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .responsive-margin {
+      text-align: left;
+      margin-left: 10rem;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .responsive-margin {
+      text-align: left;
+      margin-left: 15.625rem;
+    }
+  }
+
+  
+  
